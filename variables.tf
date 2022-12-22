@@ -10,7 +10,4 @@ variable "storage_account" {
   description="List of with key and values as strings which contain the details of storage account and their private endpoint"
   type = map
 }
-variable "subnet_id" {
-   description = " the subsnet to be used by the private endpoint" 
-   type = string
-}
+
