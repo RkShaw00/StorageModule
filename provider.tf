@@ -5,7 +5,7 @@ provider "azurerm" {
 }
 
 terraform {
-  backend "azurerm" {
+  backend "azure" {
     resource_group_name  = "aks-cluster"
     storage_account_name = "demogaiastorageaccount"
     container_name       = "tfstate"
